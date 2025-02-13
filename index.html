@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./Style/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./Style/style.css">
+    <!-- aos.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- fontawesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div id="scrollTopBtn" class="scroll-top"><i class="fa-solid fa-circle-up"></i></div>
+
+   <!-- header -->
+    <header class="header">
+        <nav style="background: #00653d;" class="navbar navbar-expand-md fixed-top">
+  <div class="container">
+    <a class="navbar-brand fs-3 lalezar text-light">فریبا شاهسون پور</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start bg-success" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title fs-2 lalezar text-light" id="offcanvasNavbarLabel">فریبا شاهسون پور</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item px-2">
+            <a class="nav-link text-dark"" aria-current="page" href="#">
+                <i class="fa-solid fa-house fs-5 d-md-none"></i>
+                <span class="ms-2 text-light vazir">صفحه اصلی</span>
+            </a>
+          </li>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-dark"" aria-current="page" href="#info">
+               <i class="fa-solid fa-user fs-5 d-md-none"></i>
+                <span class="ms-2 text-light vazir">درباره من</span>
+            </a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-dark"" aria-current="page" href="#project">
+                <i class="fa-solid fa-laptop-code fs-5 d-md-none"></i>
+                <span class="ms-2 text-light vazir">پروژه ها</span>
+            </a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-dark" href="#contact">
+                <i class="fa-solid fa-phone-flip fs-5 d-md-none"></i>
+                <span class="ms-2 text-light vazir">تماس با من</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!-- introduce -->
+<section id="info" class="mt-5 px-3 py-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5">
+                <h1 class="pt-3 fw-bold vazir">فریبا شاهسون پور</h1>
+                <sub class="fw-bold fs-5">Front-End Developer</sub>
+                <p class="pt-4 infor vazir">مسیر حرفه‌ای من با تحصیل در رشته تربیت بدنی آغاز شد، اما علاقه عمیقم به فناوری باعث شد که به برنامه‌نویسی روی بیاورم. این تغییر مسیر با یادگیری مداوم و تمرین عملی همراه بوده و به من امکان داده است تا مهارت‌های خود را در توسعه وب فرانت‌اند گسترش دهم. در حال حاضر، بر ارتقای دانش و کسب تجربه عملی در این حوزه تمرکز دارم، با هدف ورود به صنعت فناوری و ساخت یک مسیر حرفه‌ای به عنوان توسعه‌دهنده فرانت‌اند.</p>
+            </div>
+            <div class="col-lg-5 offset-2">
+                <img src="./Images/header/undraw_programmer_raqr.svg" class="img-fluid pt-5 w-75">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- projects -->
+<section id="project" class="py-5 px-3 mt-5">
+    <div class="container text-center">
+        <h2 class="py-5 mt-5 text-center lalezar text-success">پروژه های من</h2>
+        <div class="row gy-4 fs-1 text-center row-cols-1 row-cols-sm-2 rows-cols-md-4 row-cols-lg-3">
+                <div class="col" data-aos="flip-left">
+                    <div class="card shadow">
+                        <img src="./Images/project/site.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">پیاده سازی یک سایت ریسپانسیو</h5>
+                            <a href="https://faribacss.github.io/Bootstrap-project/" target="_blank" class="btn btn-success">رفتن به پروژه</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-left">
+                    <div class="card shadow">
+                        <img src="./Images/project/snappfoods.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">پیاده سازی صفحه اول سایت اسنپ فود</h5>
+                            <a href="https://faribacss.github.io/SnappFood/?" target="_blank" class="btn btn-success">رفتن به پروژه</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-left">
+                    <div class="card shadow">
+                        <img src="./Images/project/movies.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">پیاده سازی یک سایت فیلم</h5>
+                            <a href="https://faribacss.github.io/movie-site/" target="_blank" class="btn btn-success">رفتن به پروژه</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-left">
+                    <div class="card shadow">
+                        <img src="./Images/project/setalarm.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">پیاده سازی تنظیم آلارم</h5>
+                            <a href="https://faribacss.github.io/set-alarm/" target="_blank" class="btn btn-success">رفتن به پروژه</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-left">
+                    <div class="card shadow">
+                        <img src="./Images/project/qrcode.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">پیاده سازی ایجاد کیوآر کد</h5>
+                            <a href="https://faribacss.github.io/qr-code/" target="_blank" class="btn btn-success">رفتن به پروژه</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-left">
+                    <div class="card shadow">
+                        <img src="./Images/project/modal.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">پیاده سازی یک مودال</h5>
+                            <a href="https://faribacss.github.io/paint-board/" target="_blank" class="btn btn-success">رفتن به پروژه</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-outline-success my-5" href="https://github.com/faribacss?tab=repositories" target="_blank">مشاهده بیشتر</a>
+    </div>
+</section>
+
+
+
+<svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 120" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(192, 224, 204, 1)" offset="0%"></stop><stop stop-color="rgba(235, 235, 235, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,12L34.3,14C68.6,16,137,20,206,22C274.3,24,343,24,411,38C480,52,549,80,617,92C685.7,104,754,100,823,86C891.4,72,960,48,1029,34C1097.1,20,1166,16,1234,22C1302.9,28,1371,44,1440,52C1508.6,60,1577,60,1646,60C1714.3,60,1783,60,1851,64C1920,68,1989,76,2057,82C2125.7,88,2194,92,2263,92C2331.4,92,2400,88,2469,84C2537.1,80,2606,76,2674,80C2742.9,84,2811,96,2880,92C2948.6,88,3017,68,3086,50C3154.3,32,3223,16,3291,26C3360,36,3429,72,3497,76C3565.7,80,3634,52,3703,40C3771.4,28,3840,32,3909,40C3977.1,48,4046,60,4114,72C4182.9,84,4251,96,4320,100C4388.6,104,4457,100,4526,94C4594.3,88,4663,80,4731,68C4800,56,4869,40,4903,32L4937.1,24L4937.1,120L4902.9,120C4868.6,120,4800,120,4731,120C4662.9,120,4594,120,4526,120C4457.1,120,4389,120,4320,120C4251.4,120,4183,120,4114,120C4045.7,120,3977,120,3909,120C3840,120,3771,120,3703,120C3634.3,120,3566,120,3497,120C3428.6,120,3360,120,3291,120C3222.9,120,3154,120,3086,120C3017.1,120,2949,120,2880,120C2811.4,120,2743,120,2674,120C2605.7,120,2537,120,2469,120C2400,120,2331,120,2263,120C2194.3,120,2126,120,2057,120C1988.6,120,1920,120,1851,120C1782.9,120,1714,120,1646,120C1577.1,120,1509,120,1440,120C1371.4,120,1303,120,1234,120C1165.7,120,1097,120,1029,120C960,120,891,120,823,120C754.3,120,686,120,617,120C548.6,120,480,120,411,120C342.9,120,274,120,206,120C137.1,120,69,120,34,120L0,120Z"></path></svg>
+<!-- footer -->
+<footer id="contact" class="py-5 px-3">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-6 px-3">
+                <p class="fw-bold fs-5">Fariba Shahsavan Pour</p>
+            </div>
+            <div class="col-6 px-3">
+                <a href="https://github.com/faribacss" target="_blank"><i class="fa-brands fa-github fs-5 px-3"></i></a>
+                <a href="mailto:f.shahsavanpour@gmail.com" target="_blank"><i class="fa-solid fa-envelope fs-5 px-3"></i></a>
+                <a href="https://www.linkedin.com/in/fariba-shahsavanpour-691142244/" target="_blank"><i class="fa-brands fa-linkedin fs-5 px-3"></i></a>
+                <a href="https://t.me/Fa_Shahsavanpour" target="_blank"><i class="fa-solid fa-paper-plane fs-5 px-3"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- bootstrap js -->
+<script src="./Js/bootstrap.bundle.min.js"></script>
+<!-- javascript -->
+<script src="./Js/script.js"></script>
+<!-- aos.js -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+<!-- purecounter js -->
+ <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script>
+    new PureCounter();
+</script>
+</body>
+</html>

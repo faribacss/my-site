@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+.vazir{
+    font-family: 'vazir';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 2000px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    background:#ebebeb;
+    scroll-behavior: smooth;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    color: rgb(81, 122, 84);
+    padding: 15px;
+    border-radius: 50%;
+    display: none;
+    font-size: 35px;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px black);
+    transition: opacity 0.3s ease-in-out; /* نمایش نرم */
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .position-md-fixed{
+        position: fixed;
+    }
+}
+.infor{
+    text-align: justify;
+}
+
+.card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in;
+}
+
+footer{
+    background:rgb(192, 224, 204);
+}
+footer a, p{
+    text-decoration: none;
+    color: #5e5c5c;
+}
